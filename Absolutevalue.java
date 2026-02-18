@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Absolutevalue {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter NUmber");
+        int n = sc.nextInt(); //if(n<0) n = -n; they both are same
+        if(n >= 0){
+            System.out.println(n);
+        }
+        else{
+            System.out.println(-n);
+        }
+    }
+
+    
+}
