@@ -31,7 +31,7 @@ public class JavaOperatorExample {
 		// || or 
 		// ! not 
 		boolean status = true;
-		String username = " admin ";
+		java.lang.String username = "admin";
 		// in this case it will print true because both statement are true 
 		System.out.println("Logical operator AND: " + (status == true && username == "admin"));
 		// in this case it will print false because both statement are false
